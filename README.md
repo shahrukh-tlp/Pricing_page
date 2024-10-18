@@ -1,2 +1,2 @@
 # Pricing_page
-assignment
+IN this i use html,css,javascript
