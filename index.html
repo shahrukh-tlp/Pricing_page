@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="line"></div>
+    <h1>YAY! It's BOGO</h1>
+    <div class="line"></div>
+  </div>
+  <div class="product-item">
+    <input type="radio" name="unit" value="1 Unit" id="unit1" onclick="toggleSelectContainer(this)">
+    <span>
+      <span class="unit">1 Unit</span>
+      <span class="discount">10% Off</span>
+      <!-- <span class="standard-price">Standard Price</span> -->
+     
+    </span>
+    
+    
+    
+     <span style="float: right;">
+      <span class="price">$10.00 USD</span>
+      <br>
+      <span class="original-price">$24.00 USD</span>
+     </span>
+
+     <div class="select-container" id="select-container1" style="display: none;">
+      <span for="select-unit" class="select-label size">Size</span>
+      <span for="select-unit" class="select-label colour">Colour</span>
+      <br>
+      <span>#1</span>
+      <select id="select-unit" class="select-box">
+          <option value="1">S</option>
+          <option value="2">S</option>
+          <option value="3">S</option>
+          <!-- Add more options as needed -->
+      </select>
+     
+      <select id="select-unit" class="select-box">
+          <option value="1">Black</option>
+          <option value="2">Blue</option>
+          <option value="3">Green</option>
+          <!-- Add more options as needed -->
+      </select>
+
+      <br>
+      <span>#2</span>
+      <select id="select-unit" class="select-box">
+          <option value="1">S</option>
+          <option value="2">S</option>
+          <option value="3">S</option>
+          <!-- Add more options as needed -->
+      </select>
+     
+      <select id="select-unit" class="select-box">
+          <option value="1">Colour</option>
+          <option value="2">Colour</option>
+          <option value="3">Colour</option>
+          <!-- Add more options as needed -->
+      </select>
+  </div>
+     
+      
+    
+
+    <!-- <span>
+      <span>Unit 1</span>
+   
+      <span class="price">$10.00 USD</span>
+      <span class="original-price">$24.00 USD</span>
+      <span class="discount">10% Off</span>
+    </span> -->
+    
+  </div>
+  <div class="product-item" style="position: relative;">
+    <input type="radio" name="unit" value="2 Unit" id="unit2" onclick="toggleSelectContainer(this)">
+    <span>
+        <span class="unit">2 Unit</span>
+        <span class="discount">20% Off</span>
+        <!-- <span class="standard-price">Standard Price</span> -->
+    </span>
+
+    <span style="float: right;">
+        <span class="price">$18.00 USD</span>
+        <br>
+        <span class="original-price">$24.00 USD</span>
+    </span>
+
+    <div class="select-container" id="select-container2" style="display: none;">
+        <span for="select-unit" class="select-label size">Size</span>
+        <span for="select-unit" class="select-label colour">Colour</span>
+        <br>
+        <span>#1</span>
+        <select id="select-unit" class="select-box">
+            <option value="1">S</option>
+            <option value="2">S</option>
+            <option value="3">S</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <select id="select-unit" class="select-box">
+            <option value="1">Black</option>
+            <option value="2">Blue</option>
+            <option value="3">Green</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <br>
+        <span>#2</span>
+        <select id="select-unit" class="select-box">
+            <option value="1">S</option>
+            <option value="2">S</option>
+            <option value="3">S</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <select id="select-unit" class="select-box">
+            <option value="1">Colour</option>
+            <option value="2">Colour</option>
+            <option value="3">Colour</option>
+            <!-- Add more options as needed -->
+        </select>
+    </div>
+
+    <!-- Most Popular Tag -->
+    <span style="position: absolute; top: 0px; right: 0px; background-color: #ff6666; padding: 5px; font-weight: bold; border-radius: 3px; color:white">
+        Most Popular
+    </span>
+
+  </div>
+
+  <div class="product-item">
+    <input type="radio" name="unit" value="3 Unit" id="unit3" onclick="toggleSelectContainer(this)">
+    <span>
+      <span class="unit 3">1 Unit</span>
+      <span class="discount">30% Off</span>
+      <!-- <span class="standard-price">Standard Price</span> -->
+     
+    </span>
+    
+    
+    
+     <span style="float: right;">
+      <span class="price">$24.00 USD</span>
+      <br>
+      <span class="original-price">$24.00 USD</span>
+     </span>
+
+     <div class="select-container" id="select-container3" style="display: none;">
+      <span for="select-unit" class="select-label size">Size</span>
+      <span for="select-unit" class="select-label colour">Colour</span>
+      <br>
+      <span>#1</span>
+      <select id="select-unit" class="select-box">
+          <option value="1">S</option>
+          <option value="2">S</option>
+          <option value="3">S</option>
+          <!-- Add more options as needed -->
+      </select>
+     
+      <select id="select-unit" class="select-box">
+          <option value="1">Black</option>
+          <option value="2">Blue</option>
+          <option value="3">Green</option>
+          <!-- Add more options as needed -->
+      </select>
+
+      <br>
+      <span>#2</span>
+      <select id="select-unit" class="select-box">
+          <option value="1">S</option>
+          <option value="2">S</option>
+          <option value="3">S</option>
+          <!-- Add more options as needed -->
+      </select>
+     
+      <select id="select-unit" class="select-box">
+          <option value="1">Colour</option>
+          <option value="2">Colour</option>
+          <option value="3">Colour</option>
+          <!-- Add more options as needed -->
+      </select>
+  </div>
+     
+      
+    
+
+    <!-- <span>
+      <span>Unit 1</span>
+   
+      <span class="price">$10.00 USD</span>
+      <span class="original-price">$24.00 USD</span>
+      <span class="discount">10% Off</span>
+    </span> -->
+    
+  </div>
+
+  <div class="footer">
+    <span class="free-delivery">Free Delivery</span>
+    <span class="total-price">Total: $18.00 USD</span>
+  </div>
+
+  <button class="add-to-cart">+ Add to Cart</button>
+  <span class="powered-by">@Powered By Pumber</span>
+
+  
+  
+  
+</div>
+
+
+</body>
+
+</html>
